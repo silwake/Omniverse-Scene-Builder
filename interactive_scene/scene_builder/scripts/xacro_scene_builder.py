@@ -46,7 +46,7 @@ class XacroSceneBuilder(object):
 
         # if scene xacro files are succesfully saved
         if saved_dir != "":
-            # self.dump_rigid_files_(xscene.get_rigid_files())
+            self.dump_rigid_files_(xscene.get_rigid_files())
             self.dump_interactive_files_(xscene.get_interactive_files())
             self.dump_bgm_files_(xscene.get_bgm_files())
 
