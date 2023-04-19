@@ -12,7 +12,7 @@ Panels:
         - /TF1/Frames1
         - /TF1/Tree1
       Splitter Ratio: 0.5
-    Tree Height: 1543
+    Tree Height: 1522
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -28,7 +28,6 @@ Panels:
     Name: Views
     Splitter Ratio: 0.5
   - Class: rviz/Time
-    Experimental: false
     Name: Time
     SyncMode: 0
     SyncSource: ""
@@ -57,65 +56,207 @@ Visualization Manager:
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
       Value: false
-    - Class: rviz/Axes
+    - Alpha: 1
+      Class: rviz/Axes
       Enabled: true
       Length: 0.5
       Name: Axes
       Radius: 0.0010000000474974513
       Reference Frame: <Fixed Frame>
+      Show Trail: false
       Value: true
     - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
       Enabled: true
       Links:
-        All Links Enabled: true
-        Backpack_135_link:
+        All Links Enabled: false
+        Apple_surface_6_28_47_1_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Backpack_16_link:
+        BaseballBat_surface_4_3_61_2_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Book_372_link:
+        Bed_4_0_0_57_3_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Ceiling_8_link:
+        Book_surface_4_1_14_4_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Chair_127_link:
+        Book_surface_7_38_11_5_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Chair_140_link:
+        Bowl_surface_4_4_13_6_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Chair_475_link:
+        Bowl_surface_7_47_39_7_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Chair_483_link:
+        Box_surface_4_11_16_8_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Chair_55_link:
+        Bread_surface_6_34_62_9_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Cup_362_link:
+        Cabinet_149_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Cabinet_149_link_dof_rootd_Bb001_r:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Candle_surface_7_40_82_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Cart_7_3_88_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Ceiling_room_4_0_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        Ceiling_room_5_1_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        Ceiling_room_6_2_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        Ceiling_room_7_3_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        CellPhone_surface_6_32_51_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        CellPhone_surface_7_51_75_17_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_4_1_1_15_18_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_4_1_2_22_19_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_4_1_3_18_20_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_4_1_4_19_21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_7_1_1_80_22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_7_1_2_33_23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_7_1_3_34_24_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_7_1_4_83_25_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_7_1_5_40_26_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Chair_7_1_6_41_27_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        CoffeeMachine_surface_6_25_46_28_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        CounterTop_6_0_35_29_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        CreditCard_surface_7_43_24_30_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Cup_surface_6_37_50_31_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        DiningTable_4_1_0_56_32_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        DiningTable_7_1_0_77_33_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        DogBed_4_2_8_34_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Dresser_4_3_7_38_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Egg_surface_6_35_66_39_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -123,58 +264,218 @@ Visualization Manager:
         Expand Joint Details: false
         Expand Link Details: true
         Expand Tree: false
-        Floor_2_link:
+        Faucet_5_1_1_30_40_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Keyboard_451_link:
+        Fridge_6_1_29_41_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Keyboard_998_link:
+        GarbageBag_6_2_53_42_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        GarbageCan_5_4_1_43_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        GarbageCan_6_3_72_44_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        HousePlant_surface_6_29_44_45_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        HousePlant_surface_7_39_76_46_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Kettle_surface_6_16_31_47_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        KeyChain_surface_7_48_81_48_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Knife_surface_6_27_48_49_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Laptop_surface_4_6_60_50_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Laptop_surface_7_44_32_51_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LaundryHamper_5_2_0_52_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Lettuce_surface_6_20_52_53_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         Link Tree Style: Links in Alphabetic Order
-        Microwave_522_link:
+        Mug_surface_4_0_55_54_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Microwave_522_link_dof_rootd_Aa001_r:
+        Mug_surface_6_33_49_55_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Refrigerator_559_link:
+        Painting_4_5_95_56_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Refrigerator_559_link_dof_rootd_Aa001_r:
+        Painting_4_6_96_57_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Refrigerator_559_link_dof_rootd_Aa002_r:
+        Painting_5_5_92_58_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Refrigerator_559_link_dof_rootd_Ba001_t:
+        Painting_5_6_94_59_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Refrigerator_559_link_dof_rootd_Ba002_t:
+        Painting_6_6_89_60_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Refrigerator_559_link_dof_rootd_Ba003_t:
+        Painting_6_7_90_61_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Painting_6_8_91_62_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Painting_6_9_93_63_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Painting_7_4_86_64_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Painting_7_5_85_65_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        PaperTowelRoll_surface_6_31_58_66_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Pen_surface_4_7_9_71_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Pen_surface_7_45_68_72_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Pencil_surface_6_21_43_67_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Pencil_surface_7_46_67_68_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Pencil_surface_7_49_54_69_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Pencil_surface_7_50_74_70_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        PepperShaker_surface_6_22_42_73_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Pillow_4_0_1_26_74_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Pillow_surface_7_52_79_75_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Plate_surface_7_41_69_76_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Plunger_5_3_2_77_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RemoteControl_surface_4_10_25_78_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RemoteControl_surface_4_12_65_79_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RemoteControl_surface_4_5_21_80_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RemoteControl_surface_4_9_17_81_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RemoteControl_surface_7_42_78_82_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -183,68 +484,347 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
-        TV_159_link:
+        ShelvingUnit_6_4_73_87_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        TV_251_link:
+        ShelvingUnit_6_5_71_88_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        TV_329_link:
+        ShelvingUnit_7_2_84_89_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        TV_352_link:
+        Sink_5_1_0_5_90_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        TV_361_link:
+        SoapBottle_surface_5_14_3_91_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        TV_371_link:
+        SoapBottle_surface_6_26_45_92_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        TV_452_link:
+        Sofa_7_0_1_12_93_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        TV_52_link:
+        Spoon_surface_6_17_38_94_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        TV_76_link:
+        Spoon_surface_6_18_4_95_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Table_325_link:
+        Spoon_surface_6_19_37_96_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Table_343_link:
+        SprayBottle_surface_5_13_28_97_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Table_47_link:
+        SprayBottle_surface_6_23_36_98_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        Wall_1_link:
+        Statue_surface_6_24_64_99_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Statue_surface_6_36_27_100_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        TVStand_7_0_0_70_106_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Television_4_4_87_101_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Television_7_0_2_10_102_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        TennisRacket_surface_4_2_63_103_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ToiletPaper_surface_5_15_6_104_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Toilet_5_0_20_105_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Watch_surface_4_8_23_143_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        WineBottle_surface_6_30_59_148_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        door_1_7_98_35_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        door_4_5_97_36_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        door_4_7_99_37_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        room_4_2_83_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        room_5_1_84_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        room_6_0_85_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        room_7_3_86_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_4_10.49_10.49_12.59_10.49_24_107_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_4_10.49_8.39_10.49_10.49_23_108_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_4_12.59_6.29_12.59_10.49_25_109_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_4_12.59_6.29_14.68_6.29_27_110_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_4_14.68_2.10_14.68_6.29_28_111_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_4_8.39_2.10_14.68_2.10_29_112_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_4_8.39_2.10_8.39_4.20_19_113_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_4_8.39_4.20_8.39_8.39_20_114_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_4_8.39_8.39_10.49_8.39_21_115_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_5_14.68_0.00_14.68_2.10_26_116_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_5_8.39_0.00_14.68_0.00_22_117_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_5_8.39_0.00_8.39_2.10_30_118_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_5_8.39_2.10_14.68_2.10_31_119_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_6_0.00_4.20_0.00_6.29_0_120_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_6_0.00_6.29_4.20_6.29_1_121_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_6_4.20_6.29_4.20_8.39_2_122_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_6_4.20_8.39_8.39_8.39_3_123_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_6_8.39_4.20_8.39_8.39_4_124_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_7_0.00_0.00_0.00_4.20_5_125_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_7_0.00_0.00_8.39_0.00_34_126_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_7_8.39_0.00_8.39_2.10_33_127_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_7_8.39_2.10_8.39_4.20_32_128_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_0.00_0.00_0.00_4.20_6_129_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_0.00_0.00_8.39_0.00_7_130_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_0.00_4.20_0.00_6.29_8_131_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_0.00_6.29_4.20_6.29_10_132_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_10.49_10.49_12.59_10.49_17_133_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_10.49_8.39_10.49_10.49_18_134_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_12.59_6.29_12.59_10.49_13_135_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_12.59_6.29_14.68_6.29_15_136_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_14.68_0.00_14.68_2.10_12_137_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_14.68_2.10_14.68_6.29_16_138_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_4.20_6.29_4.20_8.39_11_139_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_4.20_8.39_8.39_8.39_9_140_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_8.39_0.00_14.68_0.00_35_141_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        wall_exterior_8.39_8.39_10.49_8.39_14_142_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: false
+        window_4_0_103_144_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        window_6_0_100_145_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        window_6_1_102_146_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        window_7_0_101_147_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -260,6 +840,7 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
+      Marker Alpha: 1
       Marker Scale: 1
       Name: TF
       Show Arrows: true
@@ -297,33 +878,33 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 7.529747009277344
+      Distance: 5.307879447937012
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
+      Field of View: 0.7853981852531433
       Focal Point:
-        X: -1.2087725400924683
-        Y: -0.08444249629974365
-        Z: 0.6820759177207947
+        X: -8.900091171264648
+        Y: 3.73380184173584
+        Z: 3.4962778091430664
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: -0.42020225524902344
+      Pitch: 0.8047971129417419
       Target Frame: <Fixed Frame>
-      Value: Orbit (rviz)
-      Yaw: 1.6085729598999023
+      Yaw: 3.1685731410980225
     Saved: ~
 Window Geometry:
   Displays:
-    collapsed: true
-  Height: 2049
-  Hide Left Dock: true
+    collapsed: false
+  Height: 2032
+  Hide Left Dock: false
   Hide Right Dock: true
-  QMainWindow State: 000000ff00000000fd00000004000000000000029c000006fffc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b000000b000fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073000000006e000006ff0000018200fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f000002c4fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000028000002c40000013200fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e1000001970000000300000e7a0000005afc0100000002fb0000000800540069006d0065010000000000000e7a0000057100fffffffb0000000800540069006d0065010000000000000450000000000000000000000e7a000006ff00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000004000000000000029c000006eafc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b000000b000fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000b0fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000006e000006ea0000018200fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f000002c4fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000028000002c40000013200fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e1000001970000000300000f000000005efc0100000002fb0000000800540069006d0065010000000000000f00000006dc00fffffffb0000000800540069006d0065010000000000000450000000000000000000000c58000006ea00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -332,6 +913,6 @@ Window Geometry:
     collapsed: false
   Views:
     collapsed: true
-  Width: 3706
-  X: 134
-  Y: 55
+  Width: 3840
+  X: 0
+  Y: 54
